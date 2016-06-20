@@ -787,6 +787,15 @@ strong, b {
     padding-right: 30px;
     padding-left: 30px;
   }
+  .card {
+    width: 49% !important;
+  }
+  .card:nth-child(odd) {
+    margin-right: 1%;
+  }
+  .card:nth-child(even) {
+    margin-left: 1%;
+  }
 }
 
 /* -------------------------------------------------------------------------- *
